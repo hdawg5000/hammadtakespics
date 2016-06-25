@@ -50,12 +50,12 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-center">
-                        <li><a href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+                        <li><a href="index"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
-                                <li><a href="albums/italy.php">Italy</a></li>
+                                <li><a href="albums/italy">Italy</a></li>
                                 <li><a href="#">Istanbul</a></li>
                                 <li><a href="#">Dubai</a></li>
                                 <!--                <li class="divider"></li>-->
@@ -66,11 +66,11 @@
                     print '<li><a href="logout" /><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp; Logout</a></li>
                     <li><a href="manage_account" /><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Manage Account</a></li>';
                 } else {
-                    print '<li><a href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>';
+                    print '<li><a href="login"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>';
                 }
             ?>
-                            <li><a href="contact.php"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
-                            <li><a href="about.php"><i class="fa fa-user"></i>&nbsp; About</a></li>
+                            <li><a href="contact"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
+                            <li><a href="about"><i class="fa fa-user"></i>&nbsp; About</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->

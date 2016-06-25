@@ -3,8 +3,27 @@
         session_start(); 
     }
 ?>
+
     <head>
-        <meta http-equiv="imagetoolbar" content="no" charset="utf-8" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Bootstrap -->
+        <!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/b9dd0c1c41.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
         <title>
             <?php
                 if (defined('TITLE')) {
@@ -14,69 +33,46 @@
                 }
             ?>
         </title>
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
     </head>
-    <body>
-        <div id="wrapper">
-        <div class="header">
-            <a href="index"><img id="logo" src="images/logo3.PNG"></a>
-            <ul class="nav">
-                <li><a href="index" />Home</a></li>
-                <li><a id='nav_album' href="albums" />Albums</a></li>
-<!--
-                    <ul id="album_names_sub">
-                        <li>Italy</li>
-                        <li>Turkey</li>
-                    </ul>
--->
-                <?php
-                    if (isset($_SESSION['email'])) {
-                        print '<li><a href="logout" />Logout</a></li>
-                        <li><a href="manage_account" />Manage Account</a></li>';
-                    } else {
-                        print '<li><a href="login" />Login</a></li>
-                        <li><a href="create_account" />Create Account</a></li>';
-                    }
-                ?>
-                <li><a href="contact" />Contact</a></li>
-                <li><a href="about" />About me</a></li>
-            </ul>
-        </div>
-<!--
-        <div id="ad">
-            <script type="text/javascript">
-                sa_client = "f6c9b9dfac12b57bf1f28c200b52eeaa";
-                sa_code = "69d21e8a247bc07b96c55a98f5d883af";
-                sa_protocol = ("https:"==document.location.protocol)?"https":"http";
-                sa_pline = "0";
-                sa_maxads = "2";
-                sa_bgcolor = "FFFFFF";
-                sa_bordercolor = "BDD631";
-                sa_superbordercolor = "BDD631";
-                sa_linkcolor = "001EB5";
-                sa_desccolor = "000000";
-                sa_urlcolor = "788300";
-                sa_b = "1";
-                sa_format = "column_120x240";
-                sa_width = "120";
-                sa_height = "240";
-                sa_location = "0";
-                sa_radius = "4";
-                sa_borderwidth = "1";
-                sa_font = "0";
-                document.write(unescape("%3cscript type='text/javascript' src='"+sa_protocol+"://sa.entireweb.com/sense2.js'%3e%3c/script%3e"));
-            </script>
-        </div>-->
-<!--
 
-<script src="jquery/jquery-2.2.4.min.js"></script>
-<script>
-$(function() {
-    
-    $('#nav_album').on('mouseover', function() {
-       $('#album_names').css({display: 'block'}).slideDown(1000);;
-    });
-    
-})
-</script>
--->
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.php"><img id="logo" src="images/logo3.PNG"></a>
+                    <!--          <a class="navbar-brand" href="#">Hammad Takes Pics</a>-->
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li><a href="../index"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
+                                <li><a href="albums/italy.php">Italy</a></li>
+                                <li><a href="#">Istanbul</a></li>
+                                <li><a href="#">Dubai</a></li>
+                                <!--                <li class="divider"></li>-->
+                            </ul>
+                        </li>
+                        <?php
+                if (isset($_SESSION['email'])) {
+                    print '<li><a href="../logout" /><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp; Logout</a></li>
+                    <li><a href="../manage_account" /><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Manage Account</a></li>';
+                } else {
+                    print '<li><a href="../login"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>';
+                }
+            ?>
+                            <li><a href="../contact"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
+                            <li><a href="../about"><i class="fa fa-user"></i>&nbsp; About</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
