@@ -1,0 +1,284 @@
+h1, h2, p, a, li, ul, #login_form, #register_form, #contact_form, #welcome {
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#redirect_link a, #redirect_link a:visited, #redirect_link a:hover, #redirect_link a:active {
+    text-decoration: none;
+    color: #0000EE;
+}
+body {
+    background-color: white;
+    min-width: 1250px, 1250px;
+}
+
+.header {
+    background-color: dodgerblue;
+    margin: -8px -8px -8px -8px;
+    padding-bottom: 20px;
+}
+.nav {
+    list-style-type: none;
+    display: block;
+    background-color: dodgerblue;
+    margin-left: -8px;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin: 0 14px 0 14px;
+    font-size: 22px;
+}
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+/*
+.nav li a:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.6);
+}
+*/
+#login_form, #register_form, #contact_form {
+    background-color: #e6f9ff;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 50px;
+    width: 50%;
+    min-width: 50%;
+    height: auto;
+    text-align: center;
+}
+#about_me {
+    background-color: #e6f9ff;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 50px;
+    width: 50%;
+    min-width: 50%;
+    height: auto;
+    text-align: center;
+}
+#album_main {
+    background-color: #e6f9ff;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 50px;
+    width: 80%;
+    min-width: 50%;
+    height: auto;
+    text-align: center;
+}
+#submit {
+/*    border-radius: 50px;*/
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    width: auto;
+    border: none;
+}
+
+#submit:hover {
+    background-color: skyblue;
+}
+#error_msg {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+#login_form, #register_form, #contact_form p {
+    font-size: 20px;
+}
+#error {
+    color: red;
+}
+#success {
+    color: limegreen;
+}
+#logo img {
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 60%;
+    min-height: 60%;
+}
+#ad {
+    float: right;
+    display: inline;
+}
+#logo {
+    display: inline;
+    margin-top: 7px;
+    margin-left: 7px;
+    max-width:20%;
+    max-height: 20%;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+.image img {
+    height: auto;
+    width: 100%;
+    margin: 8px 0 0 -8px;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+#image_slider {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    margin: 0 0 0 -8px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+#image_slider .slides{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    margin: 0 0 0 -8px;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    display: block;
+}
+#image_slider .slide {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    margin: 8px 0 0 -8px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    float: left;
+}
+#albums img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    position: relative;
+}
+#albums img {
+    max-width: 900px;
+    min-width: 900px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+}
+#albums {
+    text-align: center;
+    position: relative;
+}
+#albums h2 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.page_title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#album_main_title {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 50px;
+}
+#social_media_icons img, a {
+    height: 40px;
+    widows: 40px;
+    text-align: center;
+    display: inline;
+}
+#social_media_icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+#album_names_sub {
+    display: inline;
+    list-style: none;
+}
+input {
+    width: 50%;
+    padding: 12px;
+    margin: 10px;
+    box-sizing: padding-box;
+    font-size: 16px;
+    display: inline;
+}
+textarea {
+    padding: 12px;
+    margin: 10px;
+    box-sizing: padding-box;
+    font-size: 16px;
+    display: inline;
+}
+input:focus, textarea:focus {
+    border: 2px solid #b3e0ff;
+    outline: none;
+    font-size: 16px;
+}
+#label p {
+    float: left;
+    display: inline;
+    width: 200px;
+    clear: left;
+    text-align: right;
+}
+td {
+    text-align: center;
+    padding: 30px;
+}
+footer {
+    padding: 30px 0 30px 0;
+    color: white;
+    background-color: dodgerblue;
+    margin: -100px 20px -200px -10px;
+    position: absolute;
+    padding-right: 20px;
+    bottom: 0;
+    width:100%;
+}
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+.g-signin2 {
+    text-align: center;
+    margin: 0px auto;
+}
+
+/*Manage Account*/
+#manage_account {
+    background-color: #e6f9ff;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 50px;
+    width: 60%;
+    min-width: 60%;
+    height: auto;
+    text-align: center;
+}
+#manage_account_display p {
+    margin: 20px auto;
+    padding: 0 20px 0  20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#google {
+    
+}
