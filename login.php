@@ -43,7 +43,7 @@
                             }
                             $_SESSION['email'] = $_POST['email'];
                             print '<div id="register_form"><img src="images/success.png"><h1>Yay!</h1><p id="success">You have successfully logged in!</p></div>';
-                            header("Refresh:2; url=index.php");
+                            header("Refresh:0; url=index");
                             break;    
                         } else if ($row['status'] == 'CLOSED') {
                             print '<div id="register_form"><img src="images/error.png"><h1>Oops!</h1><p id="error">Your account has been suspended! Please contact us for more information.</p></div>';

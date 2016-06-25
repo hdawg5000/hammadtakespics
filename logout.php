@@ -9,7 +9,7 @@
     if(empty($_SESSION['email'])) {
         print '<div id="register_form"><img src="images/error.png"><h1>Oops!</h1><p id="error">You are already logged out!</p></div>';
 
-        header("Refresh:4; url=index.php");
+        header("Refresh:0; url=index");
     } else {
         //Destroy session
         $_SESSION = array();
