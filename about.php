@@ -1,5 +1,5 @@
 <?php
-    define('TITLE', 'Hammad Photography | About me');
+    define('TITLE', 'About | Hammad Takes Pics');
     include('templates/header.php');
     
     if(!isset($_SESSION)) { 

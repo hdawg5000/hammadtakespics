@@ -20,16 +20,7 @@ body {
     padding-bottom: 20px;
 }
 .nav {
-    list-style-type: none;
-    display: block;
-    background-color: dodgerblue;
-    margin-left: -8px;
-    text-align: center;
-}
-.nav li {
-    display: inline;
-    margin: 0 14px 0 14px;
-    font-size: 22px;
+
 }
 li a {
     text-align: center;
@@ -118,11 +109,7 @@ tr img {
     display: inline;
 }
 #logo {
-    display: inline;
-    margin-top: 7px;
-    margin-left: 7px;
-    max-width:20%;
-    max-height: 20%;
+    max-width: 250px;
 }
 
 .image img {

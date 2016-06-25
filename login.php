@@ -1,7 +1,7 @@
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <meta name="google-signin-client_id" content="143806303975-s19ihl8pr7rlsl8qmsesfgoutdkaj9ii.apps.googleusercontent.com">
 <?php
-    define('TITLE', 'Hammad Photography | Login');
+    define('TITLE', 'Login | Hammad Takes Pics');
     include('templates/header.php');
 
     if(!isset($_SESSION)) { 

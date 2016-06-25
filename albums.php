@@ -1,5 +1,5 @@
 <?php
-    define('TITLE','Hammad Photography | Albums');
+    define('TITLE','Albums | Hammad Takes Pics');
     include('templates/header.php');
 
     print '<div id="album_main"><h1 class="page_title">Albums</h1></br></br>

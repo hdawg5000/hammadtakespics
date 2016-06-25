@@ -1,5 +1,5 @@
 <?php
-    define('TITLE','Hammad Photography | Contact');
+    define('TITLE','Contact | Hammad Takes Pics');
     include('templates/header.php');
     require ('phpmailer/PHPMailerAutoload.php');
 
