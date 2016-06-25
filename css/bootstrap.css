@@ -3468,6 +3468,10 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+.foot {
+    color: #fff;
+    padding: 5px;
+}
 .fade {
   opacity: 0;
   -webkit-transition: opacity .15s linear;
@@ -4360,6 +4364,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav {
     float: left;
     margin: 0;
+    margin-top: 11px;
   }
   .navbar-nav > li {
     float: left;
@@ -4525,7 +4530,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
