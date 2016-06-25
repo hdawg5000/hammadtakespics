@@ -13,6 +13,9 @@
         <!-- Font Awesome -->
         <script src="https://use.fontawesome.com/b9dd0c1c41.js"></script>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
         <!-- Bootstrap -->
         <!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
         <link href="css/bootstrap.css" rel="stylesheet">
