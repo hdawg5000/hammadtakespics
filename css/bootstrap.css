@@ -4303,6 +4303,7 @@ tbody.collapse.in {
     color: #333;
     white-space: nowrap;
     padding-top: 9px;
+    font-size: 17px;
 }
 
 .dropdown-menu > li > a:hover,
