@@ -45,17 +45,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.php"><img id="logo" src="images/logo3.PNG"></a>
+                    <a href="../"><img id="logo" src="images/logo3.PNG"></a>
                     <!--          <a class="navbar-brand" href="#">Hammad Takes Pics</a>-->
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-center">
-                        <li><a href="../index"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+                        <li><a href="../"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
-                                <li><a href="album/italy.php">Italy</a></li>
+                                <li><a href="album/italy">Italy</a></li>
                                 <li><a href="#">Istanbul</a></li>
                                 <li><a href="#">Dubai</a></li>
                                 <!--                <li class="divider"></li>-->
