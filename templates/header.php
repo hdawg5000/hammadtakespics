@@ -58,6 +58,8 @@
                                 <li><a href="albums/italy">Italy</a></li>
                                 <li><a href="#">Istanbul</a></li>
                                 <li><a href="#">Dubai</a></li>
+                                <li class="divider"></li>
+                                <li><a href="albums">See all</a></li>
                                 <!--                <li class="divider"></li>-->
                             </ul>
                         </li>
