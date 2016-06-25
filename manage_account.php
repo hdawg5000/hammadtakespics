@@ -1,6 +1,6 @@
 <?php
 
-    define('TITLE', 'Hammad Photography | Manage Account');
+    define('TITLE', 'Manage Account | Hammad Takes Pics');
     include('templates/header.php');
 
     print '<div id="manage_account"><h1 class="page_title">Manage Account</h1>';

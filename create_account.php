@@ -2,7 +2,7 @@
 <meta name="google-signin-client_id" content="143806303975-s19ihl8pr7rlsl8qmsesfgoutdkaj9ii.apps.googleusercontent.com">
 
 <?php
-    define('TITLE','Hammad Photography | Create Account');
+    define('TITLE','Create Account | Hammad Takes Pics');
     include('templates/header.php');
 
     if (!empty($_SESSION['email'])) {

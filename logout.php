@@ -1,5 +1,5 @@
 <?php
-    define('TITLE', 'Hammad Photography | Logout Successful');
+    define('TITLE', 'Logout | Hammad Takes Pics');
     include('templates/header.php');
 
     if(!isset($_SESSION)) { 

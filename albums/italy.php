@@ -1,5 +1,5 @@
 <?php
-    define('TITLE','Hammad Photography | Italy');
+    define('TITLE','Italy | Hammad Takes Pics');
     include('templates/header.php');
     include_once("analyticstracking.php");
 
