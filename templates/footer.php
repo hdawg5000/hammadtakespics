@@ -2,7 +2,8 @@
 <div class="navbar navbar-default navbar-bottom" role="navigation">
     <div class="container">
         <div class="navbar-text pull-right">
-            <p>&copy 2016 Hammad Takes Pics</p>
+            <p>&copy
+                <?php print date("Y"); ?> Hammad Takes Pics</p>
             <a href="https://www.facebook.com/hammadtakespics/" target="_blank"><i class="foot fa fa-facebook-square fa-3x"></i></a>
             <a href="#" target="_blank"><i class="foot fa fa-google-plus-official fa-3x"></i></a>
             <a href="https://www.instagram.com/hammadtakespics/" target="_blank"><i class="foot fa fa-instagram fa-3x"></i></a>
