@@ -5,7 +5,7 @@
 
     session_start();
 ?>
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-pause="false">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -39,7 +39,7 @@
                 <img src="https://lh3.googleusercontent.com/-Lo9rtwtDhAwVYTrirpt3rYyxJ4k0m_YJ38b37nD5nV6jkyp-wY5SgkhGTJqgTGlZ27Uc0TKmcPiBqDbD7xIFH7P0rAZkU39yfMiDKb_-crvQvJz__ChyXOAJXao0mFY3x7cD_a8GASXdW6e1nY8pGmRcnlMIWA3U5lAcde6hN_1Rar0L5Xn0WZ_hbAxNftU0b7YGCwLzNJh4n01ArjNC6OfHNBST47FAMaPEl2nqMVlqnbQblk-_-KpuTgHT5tLTjS9w6oAh8xEarddqjMxpgj6g9OnY_Q_OrWIqsP-2H81U3xnN0pjVL2TDdzOibvOK7s-zfxXeS7j6l-9-M9LhWkWve9QJZs8W1tR7c4fRKoyS6wXXamnagWXNTQ4k01VjFCCkPBEtJ9BlujQblJVCAU6JoApd9KdzRnDtuId0SzCg9DkZ8QOEqXITdu6dz-z94zm7Um3-5L7DvvvqhnDqSGbPhLaTd5k-uth2PGKKI4llMp2Y_gHqBair9x3-11QpcWf7XJvUsALrFJC27BsX3dxKLmaa4-Cq8KRIkvzIuNJIJWFhzwUU7h9DWGWapu3a1mjA4A3Hmi_voOxOYCq_KU8z6pRlWfU=w1086-h725-no" alt="Hagia Sophia" class="img-responsive" />
                 <div class="carousel-caption">
                     <h2>Hagia Sophia</h2>
-                    <p>Istanbul</p>
+                    <p>Turkey</p>
                 </div>
             </div>
         </div>

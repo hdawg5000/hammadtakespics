@@ -5402,7 +5402,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 }
 
-.navbar-default {
+.navbar-bottom {
     background-color: dodgerblue;
 }
 
@@ -5422,7 +5422,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
     font-size: 18px;
 }
 
@@ -7480,6 +7480,36 @@ button.close {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     line-height: 1;
+}
+
+img {
+    max-width: 200%;
+    max-height: 100%;
+/*    width: auto 9;*/
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    background-size: cover;
+    overflow: hidden;
+    -ms-interpolation-mode: bicubic;
+}
+
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    max-width: none;
+    max-height: 88vh;
+    min-height: 88vh;
+    min-height: auto;
+    background-size: cover;
+    zoom: 115%;
+    overflow: hidden;
+}
+
+@media (min-width: 1920px) {
+    background-size: cover;
 }
 
 @media all and (transform-3d),

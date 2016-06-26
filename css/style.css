@@ -155,9 +155,11 @@ tr img {
     position: relative;
 }
 
+/*
 .image {
     margin-top: 6vh;
 }
+*/
 
 #image_slider {
     height: auto;
