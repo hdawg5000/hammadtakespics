@@ -19,7 +19,7 @@
 
 //        print '<div id="register_form"><img src="images/success.png"><h1>Thanks for stopping by!</h1><p id="success">You have been successfully logged off. Redirecting you in 3..2..1..</p></div>';
 
-        header("Refresh:4; url=index");   
+        header("Refresh:0; url=index");   
     } 
     include('templates/footer.php');
 ?>
