@@ -1,9 +1,4 @@
-<?php
-    define('TITLE','Italy | Hammad Takes Pics');
-    include('templates/header.php');
-    include_once("../analyticstracking.php");
-
-    print '<link rel="stylesheet" href="../css/style.css" type="text/css"/><link rel="stylesheet" href="../css/bootstrap.css" type="text/css"/><h1 id="album_main_title">Italy</h1>
+<a<?php define( 'TITLE', 'Italy | Hammad Takes Pics'); include( 'templates/header.php'); include_once( "../analyticstracking.php"); print '<link rel="stylesheet" href="../css/style.css" type="text/css"/><link rel="stylesheet" href="../css/bootstrap.css" type="text/css"/><h1 id="album_main_title">Italy</h1>
     <h2><span id="redirect_link"><a href="../albums"><< Go Back</a></span></h2>
     <table id="album_main">
         <tr>
@@ -1728,7 +1723,4 @@
         </tr>
     </table>
         
-    <a href="https://hammadtakespics.com/album/italy#">Go to Top</a>';
-
-    include('templates/footer.php');
-?>
+    <a href="https://hammadtakespics.com/album/italy#">Go to Top</a>'; include( 'templates/footer.php'); ?>
