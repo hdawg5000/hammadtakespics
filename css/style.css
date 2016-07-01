@@ -95,6 +95,11 @@ tr img {
     text-align: center;
 }
 
+img > td > tr > #album_main {
+    width: 200px;
+    height: auto;
+}
+
 #submit {
     /*    border-radius: 50px;*/
     background-color: dodgerblue;
@@ -154,6 +159,7 @@ tr img {
     left: 0px;
     position: relative;
 }
+
 
 /*
 .image {
@@ -234,6 +240,7 @@ tr img {
     margin: 50px auto;
     text-align: center;
     font-size: 50px;
+    padding-top: 60px;
 }
 
 #social_media_icons img,

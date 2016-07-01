@@ -1449,7 +1449,7 @@ img {
 
 .img-thumbnail {
     display: inline-block;
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     padding: 4px;
     line-height: 1.42857143;
@@ -7485,7 +7485,7 @@ button.close {
 img {
     max-width: 200%;
     max-height: 100%;
-/*    width: auto 9;*/
+    /*    width: auto 9;*/
     height: auto;
     vertical-align: middle;
     border: 0;

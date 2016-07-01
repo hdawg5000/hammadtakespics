@@ -1,9 +1,9 @@
 <?php
     define('TITLE','Italy | Hammad Takes Pics');
     include('templates/header.php');
-    include_once("analyticstracking.php");
+    include_once("../analyticstracking.php");
 
-    print '<link rel="stylesheet" href="../css/style.css" type="text/css"/><h1 id="album_main_title">Italy</h1>
+    print '<link rel="stylesheet" href="../css/style.css" type="text/css"/><link rel="stylesheet" href="../css/bootstrap.css" type="text/css"/><h1 id="album_main_title">Italy</h1>
     <h2><span id="redirect_link"><a href="../albums"><< Go Back</a></span></h2>
     <table id="album_main">
         <tr>
