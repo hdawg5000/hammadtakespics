@@ -420,3 +420,24 @@ footer {
         height: 100vh;
     }
 }
+
+
+/* Adjust colors of nav for mobile */
+
+@media (max-width: 768px) {
+    .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+}
