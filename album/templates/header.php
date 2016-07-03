@@ -14,7 +14,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <!-- LightGallery CSS -->
-        <link type="text/css" rel="stylesheet" href="../lightGallery/src/css/lightgallery.css" />
+        <link type="text/css" rel="stylesheet" href="../../css/lightgallery.css" />
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -72,8 +72,8 @@
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- LightGallery JS -->
-        <script src="../lightGallery/src/js/lightgallery.js"></script>
-        <script src="../lightGallery/src/js/lg-thumbnail.js"></script>
-        <script src="../lightGallery/src/js/lg-fullscreen.js"></script>
+        <script src="../../js/lightgallery.js"></script>
+        <script src="../../js/lg-thumbnail.js"></script>
+        <script src="../../js/lg-fullscreen.js"></script>
         <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
