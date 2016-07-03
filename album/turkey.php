@@ -6,20 +6,22 @@
     <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.21/js/lightgallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     <h1 id="album_main_title">Turkey</h1>
     <h2><span id="redirect_link"><a href="../albums"><< Go Back</a></span></h2>
     <div class="row">
         <div class="large-12 columns">
             <ul class="small-block-grid-2 medium-block-grid-3" id="lightgallery">
-                <li>
-                    <a class="item" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
+                <li data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"></a>
                 </li>
-                <li>
-                    <a class="item" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a>
-                </li>
-                <li>
-                    <a class="item" href="img/Fish.jpg"><img src="img/Fish-th.jpg"></a>
-                </li>
+                <li data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"> 
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg"></a> 
+                </li> 
+                <li data-src="img/Fish-th.jpg"> 
+                    <img src="img/Fish-th.jpg"></a> 
+                </li> 
             </ul>
         </div>
     </div>
@@ -38,11 +40,7 @@
 <div class="grid-item"> <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" /> </div>
 -->
     <script type="text/javascript">
-        $(document).ready(function () {
-            $("#lightgallery").lightGallery({
-                selector: '.item'
-            })
-        });
+        $('#lightgallery').lightGallery();
     </script>
     <!--
 <div class="grid">
