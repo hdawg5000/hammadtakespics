@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule ^/index /home [NC,L] #Handle requests for /index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^/home/ [OR]
+RewriteCond %{HTTP_HOST} ^www.hammadtakespics.com/home$
+RewriteRule ^(.*)$ https://www.hammadtakespics.com/index$1 [R,L]
+
+ErrorDocument 404 /404.php
