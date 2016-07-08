@@ -78,3 +78,8 @@
                 <!--/.nav-collapse -->
             </div>
         </div>
+        <script>
+            $(document).ready(function () {
+                $(".dropdown-toggle").dropdown();
+            });
+        </script>

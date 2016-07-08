@@ -77,3 +77,8 @@
         <script src="../../js/lg-fullscreen.js"></script>
         <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".dropdown-toggle").dropdown();
+            });
+        </script>
