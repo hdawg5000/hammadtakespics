@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar-text pull-right">
             <p>&copy
-                <?php print date("Y"); ?> Hammad Takes Pics</p> <a href="https://www.facebook.com/hammadtakespics/" target="_blank"><i class="foot fa fa-facebook-square fa-3x"></i></a> <a href="#" target="_blank"><i class="foot fa fa-google-plus-official fa-3x"></i></a> <a href="https://www.instagram.com/hammadtakespics/" target="_blank"><i class="foot fa fa-instagram fa-3x"></i></a> <a href="#" target="_blank"><i class="foot fa fa-twitter fa-3x"></i></a> <a href="https://www.youtube.com/channel/UCVQwzp1Qpr2FONc5DJS2agg" target="_blank"><i class="foot fa fa-youtube-play fa-3x"></i></a>
+                <?php print date("Y"); ?> Hammad Takes Pics</p> <a href="https://www.facebook.com/hammadtakespics/" target="_blank"><i class="foot fa fa-facebook-square fa-3x"></i></a> <a href="#" target="_blank"><i class="foot fa fa-google-plus-official fa-3x"></i></a> <a href="https://www.instagram.com/hammadtakespics/" target="_blank"><i class="foot fa fa-instagram fa-3x"></i></a> <a href="https://twitter.com/hammadtakespics" target="_blank"><i class="foot fa fa-twitter fa-3x"></i></a> <a href="https://www.youtube.com/channel/UCVQwzp1Qpr2FONc5DJS2agg" target="_blank"><i class="foot fa fa-youtube-play fa-3x"></i></a>
             <!--
                     <a href="https://www.instagram.com/hammadtakespics/" target="_blank"><img src="images/instagram_2016_icon.png"/></a>
                 </li>
