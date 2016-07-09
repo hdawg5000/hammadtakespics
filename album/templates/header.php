@@ -52,6 +52,7 @@
                                 <li><a href="../../albums.php">See all</a></li>
                             </ul>
                         </li>
+                        <li><a href="videos"><i class="fa fa-play" aria-hidden="true"></i>&nbsp; Videos</a></li>
                         <?php
                 if (isset($_SESSION['email'])) {
                     print '<li><a href="logout" /><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp; Logout</a></li>
