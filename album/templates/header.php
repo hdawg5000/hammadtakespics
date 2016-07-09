@@ -45,23 +45,23 @@
                         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
-                                <li><a href="../italy">Italy</a></li>
-                                <li><a href="../turkey">Turkey</a></li>
-                                <li><a href="../dubai">Dubai - Coming soon!</a></li>
+                                <li><a href="italy">Italy</a></li>
+                                <li><a href="turkey">Turkey</a></li>
+                                <li><a href="dubai">Dubai - Coming soon!</a></li>
                                 <li class="divider"></li>
-                                <li><a href="../../albums">See all</a></li>
+                                <li><a href="../albums">See all</a></li>
                             </ul>
                         </li>
                         <?php
                 if (isset($_SESSION['email'])) {
-                    print '<li><a href="logout" /><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp; Logout</a></li>
-                    <li><a href="manage_account" /><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Manage Account</a></li>';
+                    print '<li><a href="../logout" /><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp; Logout</a></li>
+                    <li><a href="../manage_account" /><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Manage Account</a></li>';
                 } else {
-                    print '<li><a href="login"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>';
+                    print '<li><a href="../login"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>';
                 }
             ?>
-                            <li><a href="contact"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
-                            <li><a href="about"><i class="fa fa-user"></i>&nbsp; About</a></li>
+                            <li><a href="../contact"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
+                            <li><a href="../about"><i class="fa fa-user"></i>&nbsp; About</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
