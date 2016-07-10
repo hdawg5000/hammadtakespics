@@ -3,8 +3,8 @@
     include('templates/header.php');
     include_once('analyticstracking.php');
 ?>
-    <link rel="stylesheet" href="album/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="album/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <div class="videos_main_content">
         <h1 class="videos_main_title">Videos</h1>
         <h2 id="yt_video_title">Dubai | January 2016</h2>
