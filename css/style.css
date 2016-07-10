@@ -46,13 +46,6 @@ li a {
     transition: all .2s ease-in-out;
 }
 
-tr img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
 
 /*
 .nav li a:hover {
@@ -444,54 +437,54 @@ footer {
     }
 }
 
-* {
-    box-sizing: border-box;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-
-/* force scrollbar */
-
-html {
-    overflow-y: scroll;
-}
-
+html,
 body {
-    font-family: sans-serif;
+    height: 100vh;
 }
 
-
-/* ---- isotope ---- */
-
-.grid {
-    background: #DDD;
+.wrapper {
+    min-height: 90vh;
+    height: 90vh;
+    margin: 0 auto -10vh;
 }
 
-
-/* clear fix */
-
-.grid:after {
-    content: '';
-    display: block;
-    clear: both;
+.footer,
+.push {
+    height: 10vh;
+    margin: 95px auto;
+    /* .push must be the same height as .footer */
 }
 
-
-/* ---- .grid-item ---- */
-
-.grid-sizer,
-.grid-item {
-    width: 33.333%;
+.yt-video {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.grid-item {
-    float: left;
+@media (min-width: 750px) {
+    .yt-video iframe {
+        width: 640px;
+        height: 480px;
+    }
 }
 
-.grid-item img {
-    display: block;
-    max-width: 100%;
+@media (min-width: 431px) and (max-width: 749px) {
+    .yt-video iframe {
+        width: 480px;
+        height: 360px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 430px) {
+    .yt-video iframe {
+        width: 420px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 400px) {
+    .yt-video iframe {
+        width: 320px;
+        height: 260px;
+    }
 }
