@@ -9,8 +9,6 @@ ul,
 #contact_form,
 #page_title,
 #album_main,
-.videos_main_title,
-#yt_video_title,
 #welcome {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
     text-align: center;
@@ -464,6 +462,12 @@ footer {
 
 #yt_video_title {
     margin: 50px 0 20px 0;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.videos_main_title {
+    margin-top: 95px;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 @media (min-width: 750px) {
