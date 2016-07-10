@@ -465,11 +465,6 @@ footer {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
-.videos_main_title {
-    margin-top: 95px;
-    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
-}
-
 @media (min-width: 750px) {
     .yt-video iframe {
         width: 640px;
