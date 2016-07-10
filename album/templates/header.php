@@ -73,9 +73,9 @@
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- LightGallery JS -->
-        <script src="../../js/lightgallery.js"></script>
-        <script src="../../js/lg-thumbnail.js"></script>
-        <script src="../../js/lg-fullscreen.js"></script>
+        <script src="js/lightgallery.js"></script>
+        <script src="js/lg-thumbnail.js"></script>
+        <script src="js/lg-fullscreen.js"></script>
         <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
         <script>

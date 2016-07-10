@@ -1,5 +1,6 @@
+</div>
 <!-- Start of footer -->
-<div class="navbar navbar-default navbar-bottom" role="navigation">
+<div class="navbar navbar-default navbar-bottom footer" role="navigation">
     <div class="container">
         <div class="navbar-text pull-right">
             <p>&copy
