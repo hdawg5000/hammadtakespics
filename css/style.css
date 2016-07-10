@@ -9,6 +9,8 @@ ul,
 #contact_form,
 #page_title,
 #album_main,
+.videos_main_title,
+#yt_video_title,
 #welcome {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
     text-align: center;
@@ -236,6 +238,13 @@ img > td > tr > #album_main {
     margin-bottom: 10px;
 }
 
+.videos_main_title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-top: 95px;
+}
+
 #album_main_title {
     margin: 50px auto;
     text-align: center;
@@ -442,28 +451,19 @@ footer {
     }
 }
 
-html,
-body {
-    height: 100vh;
-}
-
-.wrapper {
-    min-height: 90vh;
-    height: 90vh;
-    margin: 0 auto -10vh;
-}
-
-.footer,
-.push {
-    height: 10vh;
-    margin: 95px auto;
-    /* .push must be the same height as .footer */
+.footer {
+    margin-top: 40px;
 }
 
 .yt-video {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+#yt_video_title {
+    margin: 50px 0 20px 0;
 }
 
 @media (min-width: 750px) {
