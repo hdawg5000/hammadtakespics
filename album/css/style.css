@@ -86,7 +86,7 @@ tr img {
 #album_main {
     background-color: #e6f9ff;
     padding: 20px;
-    margin: 50px auto;
+    margin: 95px auto;
     border-radius: 50px;
     width: 95%;
     min-width: 50%;
@@ -194,11 +194,12 @@ tr img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     position: relative;
+    cursor: pointer;
 }
 
 #albums img {
-    max-width: 900px;
-    min-width: 900px;
+    max-width: 90%;
+    min-width: 90%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
