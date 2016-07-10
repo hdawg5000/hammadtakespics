@@ -47,7 +47,7 @@
                                 <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
                                 <li><a href="italy">Italy</a></li>
                                 <li><a href="turkey">Turkey</a></li>
-                                <li><a href="dubai">Dubai - Coming soon!</a></li>
+                                <li><a href="dubai">Dubai</a></li>
                                 <li class="divider"></li>
                                 <li><a href="../albums">See all</a></li>
                             </ul>
