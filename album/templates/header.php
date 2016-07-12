@@ -5,6 +5,14 @@
 ?>
 
     <head>
+        <script type='text/javascript'>
+(function(w) {
+var d=document,h=d.getElementsByTagName('head')[0],j=d.createElement('script'),k=d.createElement('script');
+j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/33575.js');
+k.setAttribute('src','//cdn.adsoptimal.com/advertisement/manual.js');
+h.appendChild(j); h.appendChild(k);
+})(window);
+</script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
