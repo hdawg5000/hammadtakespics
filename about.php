@@ -11,3 +11,5 @@
     include('templates/footer.php');
 ?>
     <script src="js/active.js"></script>
+<link rel="stylesheet" href="album/css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="album/css/style.css" type="text/css" />

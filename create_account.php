@@ -79,3 +79,5 @@
     }
     include('templates/footer.php');
 ?>
+<link rel="stylesheet" href="album/css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="album/css/style.css" type="text/css" />
