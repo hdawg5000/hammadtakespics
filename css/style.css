@@ -33,7 +33,7 @@ body {
 body {
     background-color: white;
     min-width: 1250px, 1250px;
-    height: 90vh;
+    height: 85vh;
 }
 
 .header {
@@ -315,11 +315,6 @@ footer {
     padding-right: 20px;
     bottom: 0;
     width: 100%;
-}
-
-#wrapper {
-    min-height: 100%;
-    position: relative;
 }
 
 .g-signin2 {

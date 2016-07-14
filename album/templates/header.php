@@ -6,13 +6,17 @@
 
     <head>
         <script type='text/javascript'>
-(function(w) {
-var d=document,h=d.getElementsByTagName('head')[0],j=d.createElement('script'),k=d.createElement('script');
-j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/33575.js');
-k.setAttribute('src','//cdn.adsoptimal.com/advertisement/manual.js');
-h.appendChild(j); h.appendChild(k);
-})(window);
-</script>
+            (function (w) {
+                var d = document
+                    , h = d.getElementsByTagName('head')[0]
+                    , j = d.createElement('script')
+                    , k = d.createElement('script');
+                j.setAttribute('src', '//cdn.adsoptimal.com/advertisement/settings/33575.js');
+                k.setAttribute('src', '//cdn.adsoptimal.com/advertisement/manual.js');
+                h.appendChild(j);
+                h.appendChild(k);
+            })(window);
+        </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,27 +45,28 @@ h.appendChild(j); h.appendChild(k);
     </head>
 
     <body>
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <a href="/"><img id="logo" src="images/logo3.PNG"></a>
-                    <!--          <a class="navbar-brand" href="#">Hammad Takes Pics</a>--></div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-center">
-                        <li><a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
-                                <li><a href="italy">Italy</a></li>
-                                <li><a href="turkey">Turkey</a></li>
-                                <li><a href="dubai">Dubai</a></li>
-                                <li class="divider"></li>
-                                <li><a href="../albums">See all</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../videos"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Videos</a></li>
-                        <?php
+        <div id="wrapper">
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a href="/"><img id="logo" src="images/logo3.PNG"></a>
+                        <!--          <a class="navbar-brand" href="#">Hammad Takes Pics</a>--></div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-center">
+                            <li><a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a></li>
+                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
+                                    <li><a href="italy">Italy</a></li>
+                                    <li><a href="turkey">Turkey</a></li>
+                                    <li><a href="dubai">Dubai</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="../albums">See all</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../videos"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Videos</a></li>
+                            <?php
                 if (isset($_SESSION['email'])) {
                     print '<li><a href="../logout" /><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp; Logout</a></li>
                     <li><a href="../manage_account" /><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Manage Account</a></li>';
@@ -69,11 +74,12 @@ h.appendChild(j); h.appendChild(k);
                     print '<li><a href="../login"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>';
                 }
             ?>
-                            <li><a href="../contact"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
-                            <li><a href="../about"><i class="fa fa-user"></i>&nbsp; About</a></li>
-                    </ul>
+                                <li><a href="../contact"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>&nbsp; Contact</a></li>
+                                <li><a href="../about"><i class="fa fa-user"></i>&nbsp; About</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
                 </div>
-                <!--/.nav-collapse -->
             </div>
         </div>
         <!-- Font Awesome -->
