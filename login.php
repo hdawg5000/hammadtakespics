@@ -14,9 +14,8 @@
     ini_set("display_errors",1);
 
     if (!empty($_SESSION['email'])) {
+        header("Refresh:2; url=/");
         print '<div id="register_form"><img src="images/error.png"><h1 >Oops!</h1><p id="error">You are already logged in!</p></div>';
-
-        header("Refresh:4; url=index.php");
     } else if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ((!empty($_POST['email'])) && (!empty($_POST['password']))) {
 
@@ -42,9 +41,9 @@
                                 session_start(); 
                             }
                             $_SESSION['email'] = $_POST['email'];
+                            header("Refresh:1; url=/");
                             print '<div id="register_form"><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i><span class="sr-only">Loading...</span></div>';
 //                            print '<div id="register_form"><img src="images/success.png"><h1>Yay!</h1><p id="success">You have successfully logged in!</p></div>';
-                            header("Refresh:0; url=/");
                             break;    
                         } else if ($row['status'] == 'CLOSED') {
                             print '<div id="register_form"><img src="images/error.png"><h1>Oops!</h1><p id="error">Your account has been suspended! Please contact us for more information.</p></div>';
