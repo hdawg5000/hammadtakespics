@@ -6,7 +6,7 @@ include( 'templates/header.php'); include_once( "../analyticstracking.php");
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.21/js/lightgallery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <h1 id="album_main_title">Dubai</h1>
+    <h1 id="album_main_title">Dubai, United Arab Emirates</h1>
     <h2><span id="redirect_link"><a href="../albums"><< Go Back</a></span></h2>
     <div class="row">
         <div class="large-12 columns">

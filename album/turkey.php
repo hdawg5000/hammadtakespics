@@ -1,5 +1,5 @@
 <?php
-    define('TITLE', 'Turkey | Hammad Takes Pics');
+    define('TITLE', 'Istanbul | Hammad Takes Pics');
     include('templates/header.php');
     include('../analyticstracking.php');
 ?>
@@ -10,7 +10,7 @@
 https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.21/js/lg-fullscreen.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.21/js/lightgallery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <h1 id="album_main_title">Turkey</h1>
+    <h1 id="album_main_title">Istanbul, Turkey</h1>
     <h2><span id="redirect_link"><a href="../albums"><< Go Back</a></span></h2>
     <div class="row">
         <div class="large-12 columns" id="aniimated-thumbnials">

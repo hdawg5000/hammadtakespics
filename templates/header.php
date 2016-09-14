@@ -56,8 +56,8 @@
                         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp; Albums <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <!--             	<li class="dropdown-header">Admin & Dashboard</li>-->
-                                <li><a href="album/italy">Italy</a></li>
-                                <li><a href="album/turkey">Turkey</a></li>
+                                <li><a href="album/italy">Rome/Venice</a></li>
+                                <li><a href="album/turkey">Istanbul</a></li>
                                 <li><a href="album/dubai">Dubai</a></li>
                                 <li class="divider"></li>
                                 <li><a href="albums">See all</a></li>
